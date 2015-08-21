@@ -1,6 +1,14 @@
 var Hoek = require('hoek');
 var _ = require('lodash');
 
+// EXAMPLE
+// register: require('hapi-subdomain-router'),
+// options: {
+//   subdomain: 'api',
+//   excludePath: ['css', 'js', 'images', 'fonts'],
+//   destination: '/api'
+// }
+
 exports.register = function(server, options, next) {
 
   options.subdomainLevels = options.subdomainLevels || options.subdomain.split('.').length;
