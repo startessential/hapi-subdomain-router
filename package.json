@@ -1,6 +1,6 @@
 {
   "name": "hapi-subdomain-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple subdomain router for hapi.js",
   "main": "index.js",
   "scripts": {
