@@ -11,7 +11,7 @@ exports.register = function(server, options, next) {
     var optionSubdomainSplit = options.subdomain.split('.');
 
     // Check to see if subdomain even exists
-    if (requestSubdomainSplit.length < 2) {
+    if (requestSubdomainSplit.length < 3) {
       return reply.continue();
     }
 
